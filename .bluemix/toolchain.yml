@@ -14,14 +14,14 @@ required:
 
 
 # Github repos
-github-repo-jruby:
+github-repo-rails:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "jruby"
-    repo_url: "https://github.com/jruby/jruby.git"
+    repo_name: "rails"
+    repo_url: "https://github.com/rails/rails.git"
     type: link
     has_issues: true
   hidden: [form, description]
